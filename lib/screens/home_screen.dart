@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:shop_app/grid_item/grid_items.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -224,7 +225,7 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
           ),
-          
+          GridItems(),
         ],
       ),
     );
